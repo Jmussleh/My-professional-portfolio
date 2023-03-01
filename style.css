@@ -8,6 +8,11 @@ footer {
             color: white;
 }
 
+li {
+    display:inline-block;
+    margin-right: 50px;
+  }
+
 h1,
 h2 {
     text-align: center;
@@ -25,8 +30,52 @@ p {
 }
 
 .card1, .card2, .card3, .card4, .card5 {
-    width: 80%;
+    width: 50%;
+    height: 500px;
     margin: 40px auto;
-    border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
+    border: 2px solid black;
+    box-shadow: 5px 10px 5px #888888;
+    border-radius: 8px; }
+
+    .sample-img {
+        background-color: #fff;
+        width: 100%;
+        padding: 20px;
+        height: 200px;
+        border: 1px solid black;
+      }
+
+.card1:hover {
+    transform: translate3D(0,-1px,0) scale(1.5);
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+}
+/* Code URL for bigger picture when hovering: https://nestedsoftware.com/2019/11/05/card-with-expand-on-hover-effect-2ccm.200941.html*/
+.card2:hover {
+    transform: translate3D(0,-1px,0) scale(1.5);
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+}
+
+.card3:hover {
+    transform: translate3D(0,-1px,0) scale(1.5);
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+}
+
+.card4:hover {
+    transform: translate3D(0,-1px,0) scale(1.5);
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+}
+
+.card5:hover {
+    transform: translate3D(0,-1px,0) scale(1.5);
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
 }
